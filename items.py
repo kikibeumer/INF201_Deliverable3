@@ -14,7 +14,7 @@ class Weapon:
         self.name = name
         self.damage_dice = damage_dice
 
-    def roll_damage(self) -> None: 
+    def roll_damage(self) -> int: 
         """Roll the die to obtain the amount of damage. (.roll() is not required as we defined __call__)"""
         return self.damage_dice()
 

@@ -23,7 +23,7 @@ class Dice:
         """Representation of dice object"""
         return f"Dice(sides={self.sides})"
 
-    def __call__(self) -> None:
+    def __call__(self) -> int:
         """
         Called when the instance is “called” as a function; 
         When rolling the dice, instead of writing Dice(20).roll(), Dice(20) calls __call__ and rolls the dice.
