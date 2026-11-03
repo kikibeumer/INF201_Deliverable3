@@ -29,6 +29,7 @@ class Warrior(Character):
         self.armor = armor
         
     def take_damage(self, damage: int) -> None:
-            """Reduce own HP by damage, but not below 0"""
-            self._hp -= damage
+            """Reduce own HP by damage, but not below 0. Reduce damage by armor"""
+            reduced_damage = max(damage - self.armor, 0)
+            self._hp -= reduced_damage
             self._hp = max(self._hp, 0)

@@ -45,6 +45,7 @@ class Mage(Character):
                     damage = self.weapon.roll_damage()
                 else:
                     damage = self.damage
+                min(self.mana + 5, self.mana_max) # Restore 5 mana, but not above max
 
             # Deal damage to target
             target.take_damage(damage)
