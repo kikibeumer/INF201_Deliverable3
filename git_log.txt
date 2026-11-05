@@ -1,0 +1,24 @@
+* 375dacb - Thea Gathe, 20 minutes ago : Add Gen-AI part
+* cf0e09a - Thea Gathe, 2 days ago : Make requirements.txt file
+* fb53735 - Thea Gathe, 2 days ago : Make notebook with class presentation and battle simulations.
+* c0e2110 - Thea Gathe, 2 days ago : Small cleanups
+* f8524c1 - Thea Gathe, 2 days ago : Fix errors
+* 60ece73 - Thea Gathe, 2 days ago : Do task 5
+* d4c3da1 - Thea Gathe, 2 days ago : Do task 4
+*   5f983dc - theaaga, 2 days ago : Merge pull request #2 from kikibeumer/Task4
+|\  
+| *   0674e27 - theaaga, 2 days ago : Merge pull request #1 from kikibeumer/main
+| |\  
+| |/  
+|/|   
+* | 2c1ecf7 - kikibeumer, 2 days ago : Rename Warrior.py to warrior.py
+* | e67a7e7 - kikibeumer, 2 days ago : Rename Mage.py to mage.py
+* | f35783b - kikibeumer, 2 days ago : Rename Character.py to character.py
+* | 52d6622 - kikibeumer, 2 days ago : Rename Battle.py to battle.py
+* | 71383ef - kikibeumer, 2 days ago : Rename Dice.py to dice.py
+* | ca43a82 - kikibeumer, 2 days ago : Finished task 3
+|/  
+* 66a69c6 - kikibeumer, 2 days ago : Finish task 2
+* 218f47e - kikibeumer, 3 days ago : Finish task 1
+* 15293e0 - kikibeumer, 3 days ago : Added modules
+* 06d032e - kikibeumer, 3 days ago : Initial commit
